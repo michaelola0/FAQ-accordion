@@ -39,6 +39,7 @@ body {
     width: 100vw;
     min-height: 100vh;
     position: relative;
+    padding: 24px;
 }
 
 .background {
@@ -49,6 +50,7 @@ body {
 }
 
 .card {
+    width: 100%;
     max-width: 600px;
     background-color: white;
     box-shadow: 0 32 56 0 #500076;
@@ -114,4 +116,10 @@ li {
     height: 100%;
     position: absolute;
     top: 0px;
+}
+
+
+/* Mobile Breakpoint */
+.background {
+height: 232px;
 }
